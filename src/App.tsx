@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Wrapper from './components/Wrapper';
+import TextBox from './components/TextBox';
+import Form from './components/Form';
+
+import Footer from './components/Footer';
+
+const App: React.FC = () => {
+  return(
+    <>
+      <Wrapper>
+        <TextBox>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus vero laboriosam dicta. Eum ea mollitia corporis magni dicta eius error quidem amet distinctio. </p>
+        </TextBox>
+        <Form />
+      </Wrapper>
+
+      <Footer />
+    </>
+  )
 }
 
 export default App;

@@ -1,0 +1,17 @@
+.wrapper{
+  background: var(--red);
+  box-shadow: var(--box-shadow);
+
+  min-width: 80vw;
+  min-height: 60vh;
+  width: 70vw;
+  margin: 0 20px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  color: var(--white);
+}

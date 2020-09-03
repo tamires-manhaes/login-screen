@@ -8,9 +8,8 @@ body {
 }
 
 #root{
-  width: 100vw;
   min-height: 100vh;
-
+  background: var(--bg);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,6 +26,7 @@ body {
   --white: hsl(0, 0%, 100%);
   --red: hsl(0, 100%, 74%);
   --green: hsl(154, 59%, 51%);
+  --purple: hsl(239, 67% ,61%);
   --blue: hsl(0, 0%, 100%);
   --dark-blue: hsl(249, 10%, 26%);
   --grayish-blue: hsl(246, 25%, 77%);
@@ -37,4 +37,6 @@ body {
   --bold: 700;
 
   --box-shadow: 0 0 100px rgba(0,0,0,0.1);
+  --border-radius: 10px;
+  --bg: url('../images/bg-intro-desktop.png');
 }

@@ -11,7 +11,10 @@ const App: React.FC = () => {
     <>
       <Wrapper>
         <TextBox>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus vero laboriosam dicta. Eum ea mollitia corporis magni dicta eius error quidem amet distinctio. </p>
+          <strong>Learn to code by watching others</strong>
+          <div className="span-box">
+            <span>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </span>
+          </div>
         </TextBox>
         <Form />
       </Wrapper>

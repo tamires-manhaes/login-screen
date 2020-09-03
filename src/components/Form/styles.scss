@@ -56,8 +56,9 @@
 
     span {
       color: var(--dark-blue);
-      margin-top: 5px;
-      font-size: .65rem;
+      margin: 5px 20px;
+      font-size: .7rem;
+      text-align: center;
 
       a {
         color: var(--red);
@@ -83,7 +84,12 @@
 
 @media(min-width: 740px){
   .form-container{
-    margin: 10px 20px;
+    margin: 50px 20px;
     width: calc(100% - 40px);
+
+    form span{
+      text-align: inherit;
+      margin: 0;
+    }
   }
 }

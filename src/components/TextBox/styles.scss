@@ -1,5 +1,5 @@
 .text-box {
-  margin: 0 10px 20px;
+  margin: 0 10px;
   justify-self: center;
   align-self: center;
   text-align: center;
@@ -16,10 +16,8 @@
 
   strong{
     font-size: 1.9rem;
-    font-weight: var(--bold);
+    font-weight: var(--black);
   }
-
-  
 
   strong,
   span {
@@ -39,7 +37,8 @@
 
 @media(min-width: 767px){
   .text-box{
-    text-align: center;
+    margin: 0 10px 0 40px;
+    text-align: inherit;
 
     strong{
       font-size: 2.8rem;
